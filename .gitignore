@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# Python artifacts
+
+# Local data (best practice: keep raw data out of git history)
+data/raw/*.csv
+data/processed/*.csv
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
