@@ -36,10 +36,10 @@ healthcare-etl-pipeline/
 │   ├── 01_create_schema.sql
 │   └── 02_analytical_queries.sql
 └── README.md
-'''
+```
 
 ## How to Run
-1. Download the Medical Appointment No-Shows dataset https://www.kaggle.com/datasets/joniarroba/noshowappointments , renaming it to `appointments.csv` and save it to `/healthcare-etl-pipeline/data/raw`.
+1. Download the Medical Appointment No-Shows dataset (https://www.kaggle.com/datasets/joniarroba/noshowappointments), rename it to `appointments.csv` and save it inside `/healthcare-etl-pipeline/data/raw` (and update the file paths if needed).
 2. Execute the pipeline sequentially from the `scripts/` folder:
 	`python3 01_inspect_data.py`
 	`python3 02_clean_data.py`
