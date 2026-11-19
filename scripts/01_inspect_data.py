@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load raw dataset
-file_path = '/Users/jasonlou/Documents/cs/git-github/healthcare-etl-pipeline/data/raw/appointments.csv'
+file_path = '/healthcare-etl-pipeline/data/raw/appointments.csv'
 df = pd.read_csv(file_path)
 
 # Display basic structural info

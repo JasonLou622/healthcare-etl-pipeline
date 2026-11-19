@@ -1,4 +1,4 @@
-__pycache__/
+git __pycache__/
 *.pyc
 # Python artifacts
 
@@ -10,3 +10,6 @@ data/processed/*.csv
 
 # OS files
 .DS_Store
+
+# Ignore Excel workbooks
+*.xlsx
